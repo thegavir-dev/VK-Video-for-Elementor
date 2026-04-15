@@ -1,0 +1,8 @@
+.vk-video-wrapper{position:relative;width:100%;background:#000;}
+.vk-video-wrapper iframe{position:absolute;inset:0;width:100%;height:100%;}
+.vk-video-lazy{position:absolute;inset:0;cursor:pointer;}
+.vk-fallback-bg{position:absolute;inset:0;background:linear-gradient(135deg,#222,#333);}
+.vk-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+width:70px;height:70px;background:#fff;border-radius:50%;}
+.vk-play:after{content:'';position:absolute;left:28px;top:20px;
+border-left:20px solid #000;border-top:12px solid transparent;border-bottom:12px solid transparent;}
